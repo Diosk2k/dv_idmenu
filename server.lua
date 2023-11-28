@@ -1,3 +1,14 @@
+------------------- ON RESSOURCE START PRINT --------------------
+
+AddEventHandler('onResourceStart', function(resourceName)
+	if (GetCurrentResourceName() ~= resourceName) then
+	  return
+	end
+	print('Die Ressource ' .. resourceName .. ' wurde gestartet.')
+  end)
+  
+------------------------------------------------------------------
+
 ESX = nil
 ESX = exports["es_extended"]:getSharedObject()
 
