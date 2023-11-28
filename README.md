@@ -5,7 +5,7 @@
 - **Script Name:** Personal Information Menu
 - **Author:** DV Dev
 - **Version:** 1.0
-- **Release Date:** [Release Date]
+- **Release Date:** 28.11.2023
 
 ## Description
 
