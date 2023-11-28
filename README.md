@@ -27,11 +27,14 @@ This script adds a personal information menu to your FiveM server. Players can a
 ## Dependencies
 
 - es_extended (Make sure you have this resource installed)
+- esx_menu_default
+- async
+- jsfour-idcard
 
 ## Installation
 
 1. Place the script in the resources folder of your FiveM server.
-2. Add 'start [script name]' to your server.cfg file.
+2. Add 'start dv_idmenu' to your server.cfg file.
 
 ## Note
 
@@ -40,17 +43,3 @@ This script uses the es_extended framework for player data. Make sure you have i
 ## Default Key Controls
 
 - Open Personal Information Menu: F7
-
-## Important
-
-This script assumes the existence of the 'esx:playerLoaded' event from es_extended. Make sure your server has this event implemented.
-
-## Credits
-
-- DV Dev (Script Author)
-
-## Contact
-
-If you have any questions or need support, you can contact DV Dev on the FiveM forums.
-
-Enjoy your new personal information menu!
